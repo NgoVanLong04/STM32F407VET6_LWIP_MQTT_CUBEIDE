@@ -7,7 +7,8 @@ void StartTask03(void *argument)
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+    osDelay(500);
+    HAL_GPIO_TogglePin(LED2_GPIO_Port, LED2_Pin);
   }
   /* USER CODE END StartTask03 */
 }
