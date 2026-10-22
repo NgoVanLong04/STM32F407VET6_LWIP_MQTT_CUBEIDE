@@ -53,12 +53,12 @@
 void SystemClock_Config(void);
 void MX_FREERTOS_Init(void);
 /* USER CODE BEGIN PFP */
-int _write(int fd, unsigned char *buf, int len) {
-  if (fd == 1 || fd == 2) {
-	  CDC_Transmit_FS(buf, len);
-  }
-  return len;
-}
+//int _write(int fd, unsigned char *buf, int len) {
+//  if (fd == 1 || fd == 2) {
+//	  CDC_Transmit_FS(buf, len);
+//  }
+//  return len;
+//}
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/

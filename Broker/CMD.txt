@@ -1,3 +1,3 @@
 mosquitto -c mosquitto.conf -v
 
-mosquitto_pub -h 127.0.0.1 -t "stm32/cmd" -m "LED_ON"
+mosquitto_pub -h 10.70.22.105 -t "stm32/cmd" -m "LED_ON"
